@@ -15,20 +15,31 @@
   font-variant: petite-caps;
   color: gold;
   text-shadow: 1.2px 1.2px white;
+  font-size: 2rem;
 }
 
 .img-header {
   display: none;
 }
 
-/* @media screen and (max-width: 480px) {
-  .text-header {
+.logo-img {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .larger-screen {
     display: none;
   }
   .img-header {
-    display: inline;
+    display: flex;
+    align-items: center;
   }
-} */
+  .header {
+    padding-left: 0rem;
+    padding-right: 1rem;
+  }
+}
 
 .header-food-img {
   width: 100vw;

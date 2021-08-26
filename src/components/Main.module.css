@@ -1,3 +1,10 @@
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
 .food {
   background-color: firebrick;
   color: white;

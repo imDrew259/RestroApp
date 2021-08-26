@@ -1,0 +1,14 @@
+.menu {
+  background-color: rgb(214, 55, 55);
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.list-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

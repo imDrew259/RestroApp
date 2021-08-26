@@ -1,0 +1,41 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 1rem 0rem;
+  border-bottom: 1px solid whitesmoke;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.add-meals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-quantity {
+  width: 2.5rem;
+  padding: 0.2rem 0.2rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  font-weight: inherit;
+  border-radius: 10px;
+}
+
+.add-button {
+  padding: 0.2rem 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: inherit;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.item-description {
+  font-style: italic;
+}
+
+.item-price {
+  color: #ffe142;
+}

@@ -1,0 +1,37 @@
+.header {
+  background-color: rgb(214, 55, 55);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0 3rem 0 1rem;
+  height: 5rem;
+}
+
+.text-header {
+  font-variant: petite-caps;
+  color: gold;
+  text-shadow: 1.2px 1.2px white;
+}
+
+.img-header {
+  display: none;
+}
+
+/* @media screen and (max-width: 480px) {
+  .text-header {
+    display: none;
+  }
+  .img-header {
+    display: inline;
+  }
+} */
+
+.header-food-img {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 3rem;
+}

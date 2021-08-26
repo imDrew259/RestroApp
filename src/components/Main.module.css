@@ -1,0 +1,11 @@
+.food {
+  background-color: firebrick;
+  color: white;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  box-shadow: inset 0px -1rem 20px red;
+}

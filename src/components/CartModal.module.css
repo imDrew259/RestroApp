@@ -11,11 +11,13 @@
 .modal {
   background-color: firebrick;
   position: fixed;
-  top: 15vh;
+  top: 5vh;
+  bottom: 5vh;
   left: 10%;
   width: 80%;
   padding: 2rem;
   border-radius: 30px;
+  overflow: auto;
   z-index: 20;
 }
 

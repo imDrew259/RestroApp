@@ -14,22 +14,22 @@ const Backdrop = () => {
   return <div onClick={hideOverlay} className={styles.backdrop}></div>;
 };
 
+const CartItemCard = (item) => {
+  return (
+    <CartModalItemCard
+      key={item.id}
+      name={item.name}
+      description={item.description}
+      quantity={item.quantity}
+      price={item.price}
+      id={item.id}
+    />
+  );
+};
+
 const CartModal = () => {
   const showCart = useShowCart();
   const ManageCartContext = useCartManage();
-
-  const CartItemCard = (item) => {
-    return (
-      <CartModalItemCard
-        key={item.id}
-        name={item.name}
-        description={item.description}
-        quantity={item.quantity}
-        price={item.price}
-        id={item.id}
-      />
-    );
-  };
 
   const hideOverlay = () => {
     showCart.setShowOverlay(false);
@@ -37,6 +37,8 @@ const CartModal = () => {
 
   const placeOrder = () => {
     console.log("Order Placed");
+    ManageCartContext.removeAll();
+    hideOverlay();
   };
 
   return (
